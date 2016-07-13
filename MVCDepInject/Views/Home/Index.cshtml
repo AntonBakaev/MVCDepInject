@@ -1,0 +1,21 @@
+﻿@{
+	ViewBag.Title = "Accounts";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+</head>
+<body>
+	<h2>Accounts:</h2>
+	@foreach (var account in Model)
+	{
+		<h4>ID: @account.Id</h4>
+		<p>Name: @account.Name</p>
+		<p>Age: @account.Age</p>
+		<hr />
+	}
+</body>
+</html>
