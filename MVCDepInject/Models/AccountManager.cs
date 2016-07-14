@@ -17,9 +17,9 @@ namespace MVCDepInject.Models
 			return accountRepository.GetAccounts();
 		}
 
-		public IEnumerable<Account> GetNextAccounts(int number, int startIndex)
+		public IEnumerable<Account> GetNextAccounts(int offset, int number)
 		{
-			return accountRepository.GetAccounts().Skip(startIndex).Take(number);
+			return accountRepository.GetAccounts().Skip(offset).Take(number);
 		}
 
 		public void GetAccount(int accountId)

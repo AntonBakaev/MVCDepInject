@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDepInject", "MVCDepInject\MVCDepInject.csproj", "{E10B0CA4-0767-4715-9598-F56037A45AD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDepInject.UnitTests", "MVCDepInject.UnitTests\MVCDepInject.UnitTests.csproj", "{EA91825A-557B-401B-8725-DBEA42A56A96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E10B0CA4-0767-4715-9598-F56037A45AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E10B0CA4-0767-4715-9598-F56037A45AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E10B0CA4-0767-4715-9598-F56037A45AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA91825A-557B-401B-8725-DBEA42A56A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA91825A-557B-401B-8725-DBEA42A56A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA91825A-557B-401B-8725-DBEA42A56A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA91825A-557B-401B-8725-DBEA42A56A96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
