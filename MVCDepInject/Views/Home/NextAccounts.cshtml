@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MVCDepInject.Models.Account>
+
+@foreach (var account in Model)
+{
+	<h4>ID: @account.Id</h4>
+	<p>Name: @account.Name</p>
+	<p>Age: @account.Age</p>
+	<hr />
+}

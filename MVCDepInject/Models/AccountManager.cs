@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace MVCDepInject.Models
 {
@@ -14,6 +15,11 @@ namespace MVCDepInject.Models
 		public IEnumerable<Account> GetAccounts()
 		{
 			return accountRepository.GetAccounts();
+		}
+
+		public IEnumerable<Account> GetNextAccounts(int number, int startIndex)
+		{
+			return accountRepository.GetAccounts().Skip(startIndex).Take(number);
 		}
 
 		public void GetAccount(int accountId)

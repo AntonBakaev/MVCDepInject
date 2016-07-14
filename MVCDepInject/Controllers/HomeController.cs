@@ -14,7 +14,12 @@ namespace MVCDepInject.Controllers
 
 		public ActionResult Index()
 		{
-			return View(accountManager.GetAccounts());
+			return View();
+		}
+
+		public ActionResult NextAccounts(int startIndex, int accountsCount)
+		{
+			return PartialView(accountManager.GetNextAccounts(accountsCount, startIndex));
 		}
 	}
 }

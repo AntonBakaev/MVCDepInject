@@ -14,7 +14,8 @@ namespace MVCDepInject.Models
 				new Account(1, "Max", "pass", 30),
 				new Account(2, "James", "12345", 21),
 				new Account(3, "Mike", "mike123", 19),
-				new Account(4, "Dan", "qwert", 48)
+				new Account(4, "Dan", "qwert", 48),
+				new Account(5, "John", "password", 37)
 			};
 		}
 
